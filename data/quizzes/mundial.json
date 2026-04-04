@@ -1,0 +1,36 @@
+{
+  "slug": "mundial",
+  "title": "Quiz del Mundial",
+  "description": "Finales, campeones y momentos históricos de la Copa del Mundo.",
+  "category": "competiciones",
+  "featured": true,
+  "showOnHome": true,
+  "homeOrder": 4,
+  "timeLimitSeconds": 120,
+  "questions": [
+    {
+      "id": "wc_1",
+      "question": "¿Cada cuántos años se juega el Mundial masculino?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["mundial", "competiciones"]
+    },
+    {
+      "id": "wc_2",
+      "question": "¿Qué país ganó el Mundial 2010?",
+      "options": ["Brasil", "Alemania", "España", "Argentina"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["mundial", "espana", "selecciones"]
+    },
+    {
+      "id": "wc_3",
+      "question": "¿Qué selección ganó el Mundial 2022?",
+      "options": ["Argentina", "Francia", "Croacia", "Brasil"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["mundial", "argentina", "selecciones"]
+    }
+  ]
+}

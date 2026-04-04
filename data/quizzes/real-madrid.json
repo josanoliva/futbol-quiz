@@ -1,0 +1,36 @@
+{
+  "slug": "real-madrid",
+  "title": "Quiz del Real Madrid",
+  "description": "Títulos, leyendas, Champions y momentos históricos del Real Madrid.",
+  "category": "equipos",
+  "featured": true,
+  "showOnHome": true,
+  "homeOrder": 3,
+  "timeLimitSeconds": 120,
+  "questions": [
+    {
+      "id": "rm_1",
+      "question": "¿En qué ciudad juega el Real Madrid?",
+      "options": ["Barcelona", "Valencia", "Madrid", "Sevilla"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "equipos", "espana"]
+    },
+    {
+      "id": "rm_2",
+      "question": "¿Cómo se llama el estadio del Real Madrid?",
+      "options": ["Metropolitano", "Mestalla", "Santiago Bernabéu", "Camp Nou"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "estadios"]
+    },
+    {
+      "id": "rm_3",
+      "question": "¿En qué competición europea ha brillado históricamente más el Real Madrid?",
+      "options": ["Europa League", "Champions League", "Conference League", "Recopa"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "champions-league", "competiciones"]
+    }
+  ]
+}

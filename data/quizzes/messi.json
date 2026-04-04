@@ -1,0 +1,36 @@
+{
+  "slug": "messi",
+  "title": "Quiz de Messi",
+  "description": "Demuestra cuánto sabes de Leo Messi en 2 minutos.",
+  "category": "jugadores",
+  "featured": true,
+  "showOnHome": true,
+  "homeOrder": 2,
+  "timeLimitSeconds": 120,
+  "questions": [
+    {
+      "id": "messi_1",
+      "question": "¿En qué año debutó Messi con el primer equipo del Barcelona?",
+      "options": ["2003", "2004", "2005", "2006"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["messi", "barcelona", "historia"]
+    },
+    {
+      "id": "messi_2",
+      "question": "¿Qué selección nacional representa Messi?",
+      "options": ["Uruguay", "Argentina", "España", "Chile"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["messi", "argentina", "selecciones"]
+    },
+    {
+      "id": "messi_3",
+      "question": "¿Qué dorsal hizo especialmente famoso Messi en el Barcelona?",
+      "options": ["7", "9", "10", "11"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["messi", "dorsales", "barcelona"]
+    }
+  ]
+}

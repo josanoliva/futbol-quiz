@@ -1,0 +1,36 @@
+{
+  "slug": "torneo",
+  "title": "Torneo Fútbol Quiz",
+  "description": "El gran quiz general de fútbol. 2 minutos, preguntas mezcladas y ranking global.",
+  "category": "general",
+  "featured": true,
+  "showOnHome": true,
+  "homeOrder": 1,
+  "timeLimitSeconds": 120,
+  "questions": [
+    {
+      "id": "torneo_1",
+      "question": "¿Qué selección ganó el Mundial de 2022?",
+      "options": ["Francia", "Argentina", "Brasil", "Alemania"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["mundial", "argentina", "selecciones"]
+    },
+    {
+      "id": "torneo_2",
+      "question": "¿En qué club europeo jugó la mayor parte de su carrera Lionel Messi?",
+      "options": ["PSG", "Barcelona", "Inter Miami", "Newell's Old Boys"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["messi", "barcelona", "jugadores"]
+    },
+    {
+      "id": "torneo_3",
+      "question": "¿Qué competición de clubes es la más importante de Europa?",
+      "options": ["Europa League", "Conference League", "Champions League", "Mundial de Clubes"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["champions-league", "competiciones", "europa"]
+    }
+  ]
+}

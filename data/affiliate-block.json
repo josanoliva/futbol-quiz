@@ -1,0 +1,41 @@
+{
+  "title": "Productos para fans del fútbol",
+  "description": "Explora camisetas, balones y regalos futboleros recomendados.",
+  "items": [
+    {
+      "id": "camisetas",
+      "title": "Camisetas de fútbol",
+      "description": "Camisetas de clubes, selecciones y leyendas.",
+      "url": "https://amzn.to/48mIhM3",
+      "cta": "Ver camisetas"
+    },
+    {
+      "id": "balones",
+      "title": "Balones de fútbol",
+      "description": "Balones para jugar, entrenar o regalar.",
+      "url": "https://amzn.to/3PRDPib",
+      "cta": "Ver balones"
+    },
+    {
+      "id": "botas",
+      "title": "Botas de fútbol",
+      "description": "Botas para césped natural, artificial y sala.",
+      "url": "https://amzn.to/47GOxhF",
+      "cta": "Ver botas"
+    },
+    {
+      "id": "libros",
+      "title": "Libros de fútbol",
+      "description": "Biografías, historia y táctica para fans del fútbol.",
+      "url": "https://amzn.to/48uEBYK",
+      "cta": "Ver libros"
+    },
+    {
+      "id": "regalos",
+      "title": "Regalos futboleros",
+      "description": "Ideas para fans: posters, tazas, bufandas y más.",
+      "url": "https://amzn.to/4tbeTRH",
+      "cta": "Ver regalos"
+    }
+  ]
+}
