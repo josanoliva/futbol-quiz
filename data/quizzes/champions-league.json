@@ -1,0 +1,252 @@
+{
+  "slug": "champions-league",
+  "title": "Quiz Champions League",
+  "description": "Historia, finales, récords, remontadas y grandes noches de la Champions League.",
+  "category": "Competiciones",
+  "featured": true,
+  "showOnHome": true,
+  "homeOrder": 4,
+  "timeLimitSeconds": 120,
+  "questions": [
+    {
+      "id": "ucl_1",
+      "question": "¿Qué club ganó la primera Copa de Europa en 1956?",
+      "options": ["Real Madrid", "Reims", "Milan", "Benfica"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["champions-league", "real-madrid", "clubes", "historia", "finales", "anos-1950"]
+    },
+    {
+      "id": "ucl_2",
+      "question": "¿Qué equipo perdió la final de la Copa de Europa de 1960 por 7-3 ante el Real Madrid?",
+      "options": ["Benfica", "Eintracht Frankfurt", "Reims", "Milan"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "real-madrid", "eintracht-frankfurt", "clubes", "finales", "anos-1960"]
+    },
+    {
+      "id": "ucl_3",
+      "question": "¿Qué club ganó dos Copas de Europa seguidas en 1979 y 1980?",
+      "options": ["Liverpool", "Nottingham Forest", "Bayern Munich", "Ajax"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "nottingham-forest", "clubes", "titulos", "historia", "anos-1970", "anos-1980"]
+    },
+    {
+      "id": "ucl_4",
+      "question": "¿Qué equipo derrotó al FC Barcelona en la final de la Copa de Europa de 1961?",
+      "options": ["Inter", "Benfica", "Real Madrid", "Milan"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "fc-barcelona", "benfica", "clubes", "finales", "anos-1960"]
+    },
+    {
+      "id": "ucl_5",
+      "question": "¿Qué entrenador ganó la Champions League con dos clubes distintos entre estas opciones?",
+      "options": ["Pep Guardiola", "Carlo Ancelotti", "Jürgen Klopp", "Luis Enrique"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "entrenadores", "ancelotti", "titulos", "records"]
+    },
+    {
+      "id": "ucl_6",
+      "question": "¿Qué jugador marcó de cabeza en la final de la Champions League de 2009 para el FC Barcelona?",
+      "options": ["Eto'o", "Messi", "Piqué", "Xavi"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "fc-barcelona", "messi", "jugadores", "finales", "anos-2000"]
+    },
+    {
+      "id": "ucl_7",
+      "question": "¿Qué club ganó la final de la Champions League de 1999 con dos goles en el descuento?",
+      "options": ["Bayern Munich", "Manchester United", "Juventus", "Real Madrid"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "manchester-united", "clubes", "finales", "remontadas", "anos-1990"]
+    },
+    {
+      "id": "ucl_8",
+      "question": "¿Qué rival perdió la final de la Champions League de 1999 ante el Manchester United?",
+      "options": ["Juventus", "Bayern Munich", "Milan", "Dynamo Kyiv"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "manchester-united", "bayern-munich", "clubes", "finales", "anos-1990"]
+    },
+    {
+      "id": "ucl_9",
+      "question": "¿Qué jugador marcó la volea más famosa en una final de Champions League, en Glasgow 2002?",
+      "options": ["Raúl", "Figo", "Zidane", "Ronaldo"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["champions-league", "real-madrid", "zidane", "jugadores", "finales", "anos-2000"]
+    },
+    {
+      "id": "ucl_10",
+      "question": "¿Qué club eliminó al Real Madrid en semifinales de la Champions League de 2013 tras un 4-1 en la ida?",
+      "options": ["Bayern Munich", "Borussia Dortmund", "Juventus", "Chelsea"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "real-madrid", "borussia-dortmund", "clubes", "eliminatorias", "semifinales", "anos-2010"]
+    },
+    {
+      "id": "ucl_11",
+      "question": "¿Qué jugador del Borussia Dortmund marcó cuatro goles al Real Madrid en aquella semifinal de 2013?",
+      "options": ["Reus", "Götze", "Lewandowski", "Aubameyang"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["champions-league", "borussia-dortmund", "lewandowski", "jugadores", "goles", "semifinales", "anos-2010"]
+    },
+    {
+      "id": "ucl_12",
+      "question": "¿Qué equipo remontó el FC Barcelona en el famoso 6-1 de 2017?",
+      "options": ["Bayern Munich", "Juventus", "PSG", "Chelsea"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["champions-league", "fc-barcelona", "psg", "clubes", "remontadas", "anos-2010"]
+    },
+    {
+      "id": "ucl_13",
+      "question": "¿Qué jugador del FC Barcelona marcó el último gol del 6-1 al PSG?",
+      "options": ["Messi", "Neymar", "Luis Suárez", "Sergi Roberto"],
+      "correctIndex": 3,
+      "difficulty": "medium",
+      "tags": ["champions-league", "fc-barcelona", "sergi-roberto", "jugadores", "goles", "remontadas", "anos-2010"]
+    },
+    {
+      "id": "ucl_14",
+      "question": "¿Qué club ganó la Champions League de 2004 como gran sorpresa del torneo?",
+      "options": ["Monaco", "Porto", "Valencia", "Chelsea"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "porto", "clubes", "titulos", "anos-2000"]
+    },
+    {
+      "id": "ucl_15",
+      "question": "¿Qué entrenador dirigía al Porto campeón de la Champions League en 2004?",
+      "options": ["Benítez", "Mourinho", "Deschamps", "Ranieri"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "porto", "mourinho", "entrenadores", "anos-2000"]
+    },
+    {
+      "id": "ucl_16",
+      "question": "¿Qué final de Champions League se recuerda como el 'Milagro de Estambul'?",
+      "options": ["Liverpool vs Milan 2005", "Manchester United vs Bayern 1999", "Barcelona vs Arsenal 2006", "Real Madrid vs Atlético 2014"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["champions-league", "liverpool", "milan", "clubes", "finales", "remontadas", "anos-2000"]
+    },
+    {
+      "id": "ucl_17",
+      "question": "¿Qué equipo iba ganando 3-0 al descanso en la final de Estambul de 2005?",
+      "options": ["Liverpool", "Milan", "Chelsea", "Juventus"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "milan", "liverpool", "clubes", "finales", "anos-2000"]
+    },
+    {
+      "id": "ucl_18",
+      "question": "¿Qué jugador del Liverpool empató la final de 2005 desde el punto de penalti?",
+      "options": ["Gerrard", "Xabi Alonso", "Smicer", "Carragher"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "liverpool", "xabi-alonso", "jugadores", "finales", "anos-2000"]
+    },
+    {
+      "id": "ucl_19",
+      "question": "¿Qué club ganó la final de la Champions League de 2012 tras eliminar antes al FC Barcelona en semifinales?",
+      "options": ["Bayern Munich", "Chelsea", "Real Madrid", "Juventus"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "chelsea", "fc-barcelona", "clubes", "titulos", "anos-2010"]
+    },
+    {
+      "id": "ucl_20",
+      "question": "¿Contra qué rival ganó el Chelsea la final de la Champions League de 2012?",
+      "options": ["Bayern Munich", "Real Madrid", "Manchester United", "Milan"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["champions-league", "chelsea", "bayern-munich", "clubes", "finales", "anos-2010"]
+    },
+    {
+      "id": "ucl_21",
+      "question": "¿Qué equipo eliminó al FC Barcelona por 3-0 en Roma en 2018?",
+      "options": ["Inter", "Roma", "Liverpool", "Juventus"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "fc-barcelona", "roma", "clubes", "eliminatorias", "anos-2010"]
+    },
+    {
+      "id": "ucl_22",
+      "question": "¿Qué equipo eliminó al FC Barcelona por 4-0 en Anfield en 2019?",
+      "options": ["Chelsea", "Liverpool", "Tottenham", "Manchester City"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["champions-league", "fc-barcelona", "liverpool", "clubes", "eliminatorias", "anos-2010"]
+    },
+    {
+      "id": "ucl_23",
+      "question": "¿Qué jugador marcó el único gol de la final de la Champions League de 2022?",
+      "options": ["Benzema", "Vinicius", "Rodrygo", "Modric"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["champions-league", "real-madrid", "vinicius", "jugadores", "finales", "anos-2020"]
+    },
+    {
+      "id": "ucl_24",
+      "question": "¿Qué club perdió la final de la Champions League de 2022 ante el Real Madrid?",
+      "options": ["Manchester City", "Liverpool", "Chelsea", "PSG"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["champions-league", "real-madrid", "liverpool", "clubes", "finales", "anos-2020"]
+    },
+    {
+      "id": "ucl_25",
+      "question": "¿Qué jugador del Real Madrid marcó un hat-trick al Wolfsburgo en la remontada de 2016?",
+      "options": ["Benzema", "Cristiano Ronaldo", "Bale", "Isco"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "real-madrid", "cristiano-ronaldo", "jugadores", "remontadas", "anos-2010"]
+    },
+    {
+      "id": "ucl_26",
+      "question": "¿Qué club ganó la Champions League de 1997, la primera de su historia, ante la Juventus?",
+      "options": ["Borussia Dortmund", "Ajax", "Porto", "Manchester United"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["champions-league", "borussia-dortmund", "juventus", "clubes", "finales", "anos-1990"]
+    },
+    {
+      "id": "ucl_27",
+      "question": "¿Qué equipo ganó la Champions League de 2007 con revancha sobre el Liverpool?",
+      "options": ["Chelsea", "Milan", "Manchester United", "Barcelona"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "milan", "liverpool", "clubes", "finales", "anos-2000"]
+    },
+    {
+      "id": "ucl_28",
+      "question": "¿Qué equipo ganó la Champions League de 2020 en el torneo de fase final en Lisboa?",
+      "options": ["PSG", "Bayern Munich", "Manchester City", "Liverpool"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["champions-league", "bayern-munich", "clubes", "titulos", "anos-2020"]
+    },
+    {
+      "id": "ucl_29",
+      "question": "¿Qué equipo sufrió la derrota 8-2 ante el Bayern en 2020?",
+      "options": ["Chelsea", "Lyon", "FC Barcelona", "PSG"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["champions-league", "fc-barcelona", "bayern-munich", "clubes", "anos-2020"]
+    },
+    {
+      "id": "ucl_30",
+      "question": "¿Quién es el máximo goleador histórico de la Champions League según las estadísticas históricas de UEFA?",
+      "options": ["Messi", "Lewandowski", "Cristiano Ronaldo", "Raúl"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["champions-league", "records", "jugadores", "cristiano-ronaldo"]
+    }
+  ]
+}

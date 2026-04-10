@@ -2,7 +2,7 @@
   "slug": "real-madrid",
   "title": "Quiz del Real Madrid",
   "description": "Títulos, leyendas, Champions y momentos históricos del Real Madrid.",
-  "category": "equipos",
+  "category": "Clubes",
   "featured": true,
   "showOnHome": true,
   "homeOrder": 3,
@@ -10,27 +10,723 @@
   "questions": [
     {
       "id": "rm_1",
-      "question": "¿En qué ciudad juega el Real Madrid?",
-      "options": ["Barcelona", "Valencia", "Madrid", "Sevilla"],
-      "correctIndex": 2,
+      "question": "¿En qué año se fundó el Real Madrid?",
+      "options": ["1898", "1902", "1905", "1910"],
+      "correctIndex": 1,
       "difficulty": "easy",
-      "tags": ["real-madrid", "equipos", "espana"]
+      "tags": ["real-madrid", "historia", "clubes"]
     },
     {
       "id": "rm_2",
+      "question": "¿Qué rey concedió al club el título de 'Real'?",
+      "options": ["Alfonso XII", "Alfonso XIII", "Juan Carlos I", "Felipe VI"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "historia", "clubes"]
+    },
+    {
+      "id": "rm_3",
       "question": "¿Cómo se llama el estadio del Real Madrid?",
-      "options": ["Metropolitano", "Mestalla", "Santiago Bernabéu", "Camp Nou"],
-      "correctIndex": 2,
+      "options": ["Metropolitano", "Santiago Bernabéu", "Mestalla", "Camp Nou"],
+      "correctIndex": 1,
       "difficulty": "easy",
       "tags": ["real-madrid", "estadios"]
     },
     {
-      "id": "rm_3",
-      "question": "¿En qué competición europea ha brillado históricamente más el Real Madrid?",
-      "options": ["Europa League", "Champions League", "Conference League", "Recopa"],
+      "id": "rm_4",
+      "question": "¿Qué color tiene tradicionalmente el uniforme principal del Real Madrid?",
+      "options": ["Rojo", "Blanco", "Azul", "Negro"],
       "correctIndex": 1,
       "difficulty": "easy",
-      "tags": ["real-madrid", "champions-league", "competiciones"]
+      "tags": ["real-madrid", "equipaciones"]
+    },
+    {
+      "id": "rm_5",
+      "question": "¿Qué apodo recibe habitualmente el Real Madrid?",
+      "options": ["Los colchoneros", "Los merengues", "Los leones", "Los pericos"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "clubes"]
+    },
+    {
+      "id": "rm_6",
+      "question": "¿Qué jugador es el máximo goleador histórico del Real Madrid?",
+      "options": ["Raúl", "Cristiano Ronaldo", "Benzema", "Di Stéfano"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "goleadores"]
+    },
+    {
+      "id": "rm_7",
+      "question": "¿Cuántas Champions League había ganado el Real Madrid hasta 2024?",
+      "options": ["10", "12", "14", "15"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "titulos"]
+    },
+    {
+      "id": "rm_8",
+      "question": "¿Qué presidente fue clave en el impulso histórico del Real Madrid en Europa a mediados del siglo XX?",
+      "options": ["Florentino Pérez", "Santiago Bernabéu", "Ramón Mendoza", "Ramón Calderón"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "historia", "presidentes"]
+    },
+    {
+      "id": "rm_9",
+      "question": "¿Qué legendario jugador lideró al Real Madrid en los años 50?",
+      "options": ["Raúl", "Cristiano Ronaldo", "Alfredo Di Stéfano", "Zidane"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "historia", "di-stefano"]
+    },
+    {
+      "id": "rm_10",
+      "question": "¿Contra qué equipo ganó el Real Madrid su primera Copa de Europa?",
+      "options": ["Milan", "Reims", "Liverpool", "Ajax"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "historia", "finales"]
+    },
+    {
+      "id": "rm_11",
+      "question": "¿Qué entrenador ganó tres Champions League seguidas con el Real Madrid?",
+      "options": ["Ancelotti", "Zidane", "Mourinho", "Del Bosque"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "zidane"]
+    },
+    {
+      "id": "rm_12",
+      "question": "¿Qué dorsal hizo famoso Raúl en el Real Madrid?",
+      "options": ["7", "9", "10", "11"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "dorsales", "raul"]
+    },
+    {
+      "id": "rm_13",
+      "question": "¿Qué jugador del Real Madrid ganó cinco Champions League con el club en la era moderna?",
+      "options": ["Modric", "Cristiano Ronaldo", "Ramos", "Marcelo"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "jugadores", "cristiano-ronaldo"]
+    },
+    {
+      "id": "rm_14",
+      "question": "¿En qué ciudad está el estadio del Real Madrid?",
+      "options": ["Barcelona", "Madrid", "Sevilla", "Valencia"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "geografia", "estadios"]
+    },
+    {
+      "id": "rm_15",
+      "question": "¿Cuál es el gran rival histórico del Real Madrid en El Clásico?",
+      "options": ["Atlético de Madrid", "Valencia", "Barcelona", "Sevilla"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "clasicos", "barcelona"]
+    },
+    {
+      "id": "rm_16",
+      "question": "¿Qué competición nacional ha ganado más veces el Real Madrid?",
+      "options": ["Copa del Rey", "LaLiga", "Supercopa de España", "Europa League"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "competiciones", "laliga"]
+    },
+    {
+      "id": "rm_17",
+      "question": "¿Qué jugador del Real Madrid marcó el gol del empate en la final de la Champions League de 2014, conocida como La Décima?",
+      "options": ["Bale", "Cristiano Ronaldo", "Sergio Ramos", "Benzema"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "finales", "sergio-ramos"]
+    },
+    {
+      "id": "rm_18",
+      "question": "¿Qué apodo recibió a veces el equipo del Real Madrid de los años 50 por su dominio continental?",
+      "options": ["Galácticos", "Quinta del Buitre", "Equipo blanco", "Madrid imperial"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia"]
+    },
+    {
+      "id": "rm_19",
+      "question": "¿Quién era el presidente del Real Madrid en 2024?",
+      "options": ["Laporta", "Florentino Pérez", "Rubiales", "Tebas"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "actualidad", "presidentes", "florentino-perez"]
+    },
+    {
+      "id": "rm_20",
+      "question": "¿Qué jugador del Real Madrid ganó el Balón de Oro en 2018?",
+      "options": ["Modric", "Ramos", "Bale", "Isco"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "premios", "jugadores", "modric"]
+    },
+    {
+      "id": "rm_21",
+      "question": "¿Qué jugador del Real Madrid es conocido como 'El Buitre'?",
+      "options": ["Raúl", "Butragueño", "Hierro", "Míchel"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "jugadores", "historia", "butragueno"]
+    },
+    {
+      "id": "rm_22",
+      "question": "¿Qué portero fue clave en los éxitos europeos del Real Madrid en los años 2000?",
+      "options": ["Casillas", "Keylor Navas", "Courtois", "Cañizares"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "porteros", "casillas"]
+    },
+    {
+      "id": "rm_23",
+      "question": "¿Quién marcó el gol decisivo del Real Madrid en la final de la Champions League de 2022?",
+      "options": ["Benzema", "Vinicius", "Modric", "Rodrygo"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "finales", "vinicius"]
+    },
+    {
+      "id": "rm_24",
+      "question": "¿Qué entrenador ganó la Champions League de 2022 con el Real Madrid?",
+      "options": ["Zidane", "Ancelotti", "Mourinho", "Del Bosque"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "ancelotti"]
+    },
+    {
+      "id": "rm_25",
+      "question": "¿Qué jugador francés fue clave en el centro del campo del Real Madrid en la última década y aparece entre estas opciones?",
+      "options": ["Griezmann", "Mbappé", "Zidane", "Camavinga"],
+      "correctIndex": 3,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "jugadores", "francia", "camavinga"]
+    },
+    {
+      "id": "rm_26",
+      "question": "¿Cuál era el nombre del estadio del Real Madrid antes de llamarse Santiago Bernabéu?",
+      "options": ["Chamartín", "Metropolitano", "Madrid Arena", "Central"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "estadios", "chamartin"]
+    },
+    {
+      "id": "rm_27",
+      "question": "¿Qué jugadores del Real Madrid ganaron cuatro Champions League consecutivas con el club entre 2014 y 2018?",
+      "options": ["Cristiano Ronaldo", "Marcelo", "Carvajal", "Todos los anteriores"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "jugadores"]
+    },
+    {
+      "id": "rm_28",
+      "question": "¿De qué país es Luka Modric?",
+      "options": ["Serbia", "Croacia", "Eslovenia", "Hungría"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "croacia", "modric"]
+    },
+    {
+      "id": "rm_29",
+      "question": "¿Qué jugador español fue capitán del Real Madrid durante muchos años en la década de 2010?",
+      "options": ["Xavi", "Iniesta", "Sergio Ramos", "Puyol"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "capitanes", "sergio-ramos"]
+    },
+    {
+      "id": "rm_30",
+      "question": "¿Qué idea se asocia tradicionalmente al color blanco en la identidad histórica del Real Madrid, según esta pregunta?",
+      "options": ["Riqueza", "Elegancia y pureza", "Tradición militar", "Casualidad"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "identidad"]
+    },
+    {
+      "id": "rm_31",
+      "question": "¿Qué jugador del Real Madrid ganó el primer Balón de Oro del club?",
+      "options": ["Di Stéfano", "Puskás", "Kopa", "Gento"],
+      "correctIndex": 2,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "premios", "historia", "kopa"]
+    },
+    {
+      "id": "rm_32",
+      "question": "¿En qué año ganó el Real Madrid su primera Copa de Europa?",
+      "options": ["1954", "1955", "1956", "1957"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "historia"]
+    },
+    {
+      "id": "rm_33",
+      "question": "¿Qué jugador del Real Madrid marcó cuatro goles en una final de la Copa de Europa?",
+      "options": ["Di Stéfano", "Puskás", "Raúl", "Cristiano Ronaldo"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "historia", "puskas"]
+    },
+    {
+      "id": "rm_34",
+      "question": "¿Qué entrenador dirigía al Real Madrid en la Séptima, conquistada en 1998?",
+      "options": ["Del Bosque", "Capello", "Heynckes", "Antic"],
+      "correctIndex": 2,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "heynckes"]
+    },
+    {
+      "id": "rm_35",
+      "question": "¿Contra qué equipo ganó el Real Madrid la final de la Champions League de 2000?",
+      "options": ["Valencia", "Bayern", "Juventus", "Arsenal"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "finales", "valencia"]
+    },
+    {
+      "id": "rm_36",
+      "question": "¿Qué jugador del Real Madrid marcó la famosa volea en la final de la Champions League de 2002?",
+      "options": ["Raúl", "Zidane", "Figo", "Ronaldo"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "champions-league", "finales", "zidane"]
+    },
+    {
+      "id": "rm_37",
+      "question": "¿Quién fue el entrenador del Real Madrid durante la etapa de la Quinta del Buitre?",
+      "options": ["Luis Molowny", "Leo Beenhakker", "Del Bosque", "Antic"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "entrenadores", "quinta-del-buitre"]
+    },
+    {
+      "id": "rm_38",
+      "question": "¿Qué jugador del Real Madrid es conocido como 'La Saeta Rubia'?",
+      "options": ["Puskás", "Gento", "Di Stéfano", "Butragueño"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "jugadores", "historia", "di-stefano"]
+    },
+    {
+      "id": "rm_39",
+      "question": "¿Cuántas Copas de Europa consecutivas ganó el Real Madrid en los años 50?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "historia"]
+    },
+    {
+      "id": "rm_40",
+      "question": "¿Qué jugador del Real Madrid fue apodado 'El Pantera Negra' entre estas opciones?",
+      "options": ["Makelele", "Eto'o", "Adebayor", "Emerson"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "jugadores"]
+    },
+    {
+      "id": "rm_41",
+      "question": "¿Qué rival eliminó al Real Madrid en semifinales de la Champions League de 2013 tras ganar 4-1 en la ida?",
+      "options": ["Bayern", "Dortmund", "Barça", "Juventus"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "dortmund"]
+    },
+    {
+      "id": "rm_42",
+      "question": "¿Quién marcó el gol decisivo del Real Madrid en la final de la Champions League de 1998?",
+      "options": ["Raúl", "Mijatovic", "Suker", "Seedorf"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "finales", "mijatovic"]
+    },
+    {
+      "id": "rm_43",
+      "question": "¿Qué jugador formó junto a Modric y Kroos el famoso centro del campo del Real Madrid?",
+      "options": ["Casemiro", "Isco", "James", "Valverde"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "casemiro", "modric", "kroos"]
+    },
+    {
+      "id": "rm_44",
+      "question": "¿Qué equipo eliminó al Real Madrid en octavos de la Champions League de 2009?",
+      "options": ["Liverpool", "Roma", "Arsenal", "Milan"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "liverpool"]
+    },
+    {
+      "id": "rm_45",
+      "question": "¿Qué jugador fue fichado por el Real Madrid desde el Tottenham en 2013, como también había ocurrido antes con Luka Modric?",
+      "options": ["Bale", "Eriksen", "Kane", "Walker"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "fichajes", "bale", "tottenham"]
+    },
+    {
+      "id": "rm_46",
+      "question": "¿Qué dorsal llevaba Cristiano Ronaldo en su debut oficial con el Real Madrid?",
+      "options": ["7", "9", "10", "11"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "jugadores", "dorsales", "cristiano-ronaldo"]
+    },
+    {
+      "id": "rm_47",
+      "question": "¿Qué equipo eliminó al Real Madrid en semifinales de la Champions League de 2012 en la tanda de penaltis?",
+      "options": ["Chelsea", "Bayern", "Barça", "Inter"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "bayern"]
+    },
+    {
+      "id": "rm_48",
+      "question": "¿Qué jugador del Real Madrid marcó un hat-trick contra el Wolfsburgo en la Champions League de 2016?",
+      "options": ["Benzema", "Cristiano Ronaldo", "Bale", "Isco"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "cristiano-ronaldo"]
+    },
+    {
+      "id": "rm_49",
+      "question": "¿Qué jugadores brasileños fueron laterales izquierdos destacados del Real Madrid durante muchos años?",
+      "options": ["Roberto Carlos", "Marcelo", "Ambos", "Ninguno"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "brasil", "roberto-carlos", "marcelo"]
+    },
+    {
+      "id": "rm_50",
+      "question": "¿Qué figura presidencial del club está más asociada al concepto de 'Galácticos' en el Real Madrid?",
+      "options": ["Del Bosque", "Florentino Pérez", "Capello", "Zidane"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "historia", "presidentes", "galacticos", "florentino-perez"]
+    },
+    {
+      "id": "rm_51",
+      "question": "¿En qué minuto marcó Sergio Ramos el gol del empate en la final de la Champions League de 2014?",
+      "options": ["89", "90", "92", "93"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "finales", "sergio-ramos"]
+    },
+    {
+      "id": "rm_52",
+      "question": "¿Qué rival eliminó al Real Madrid en la Champions League de 2004 tras perder una ventaja de 4-2 de la ida?",
+      "options": ["Monaco", "Juventus", "Arsenal", "Bayern"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "monaco"]
+    },
+    {
+      "id": "rm_53",
+      "question": "¿Qué jugador NO formó parte de la Quinta del Buitre del Real Madrid?",
+      "options": ["Butragueño", "Míchel", "Sanchís", "Raúl"],
+      "correctIndex": 3,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "historia", "quinta-del-buitre", "raul"]
+    },
+    {
+      "id": "rm_54",
+      "question": "¿Qué entrenador fue destituido por el Real Madrid pese a ganar La Liga en 2003?",
+      "options": ["Del Bosque", "Capello", "Queiroz", "Heynckes"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "entrenadores", "del-bosque"]
+    },
+    {
+      "id": "rm_55",
+      "question": "¿Qué jugador del Real Madrid marcó el gol decisivo en la final de la Champions League de 2000 en París?",
+      "options": ["Raúl", "Morientes", "McManaman", "Helguera"],
+      "correctIndex": 2,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "finales", "mcmanaman"]
+    },
+    {
+      "id": "rm_56",
+      "question": "¿Contra qué equipo debutó Cristiano Ronaldo con el Real Madrid en partido oficial?",
+      "options": ["Deportivo", "Valencia", "Numancia", "Real Sociedad"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "jugadores", "cristiano-ronaldo", "deportivo"]
+    },
+    {
+      "id": "rm_57",
+      "question": "¿Qué portero fue titular con el Real Madrid en la final de la Champions League de 2018?",
+      "options": ["Casillas", "Navas", "Courtois", "Adán"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "porteros", "keylor-navas"]
+    },
+    {
+      "id": "rm_58",
+      "question": "¿Qué equipo eliminó al Real Madrid en la Champions League de 2005 con un 0-3 en el Bernabéu?",
+      "options": ["Arsenal", "Juventus", "Milan", "Liverpool"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "arsenal"]
+    },
+    {
+      "id": "rm_59",
+      "question": "¿Qué jugador del Real Madrid marcó en todas las rondas de la Champions League de 2017?",
+      "options": ["Benzema", "Cristiano Ronaldo", "Bale", "Isco"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "cristiano-ronaldo"]
+    },
+    {
+      "id": "rm_60",
+      "question": "¿Qué entrenador ganó la Champions League con el Real Madrid en 1998 tras haberla ganado antes con otro club?",
+      "options": ["Del Bosque", "Heynckes", "Capello", "Ancelotti"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "heynckes"]
+    },
+    {
+      "id": "rm_61",
+      "question": "¿Qué jugador del Real Madrid fue conocido como 'el ángel de Madrid'?",
+      "options": ["Di Stéfano", "Raúl", "Juanito", "Gento"],
+      "correctIndex": 2,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "jugadores", "juanito"]
+    },
+    {
+      "id": "rm_62",
+      "question": "¿Qué dorsal llevaba Zidane en la final de Glasgow de 2002 con el Real Madrid?",
+      "options": ["5", "7", "10", "11"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "jugadores", "dorsales", "zidane"]
+    },
+    {
+      "id": "rm_63",
+      "question": "¿Qué equipo eliminó al Real Madrid en octavos de la Champions League de 2010?",
+      "options": ["Lyon", "Roma", "Liverpool", "Inter"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "lyon"]
+    },
+    {
+      "id": "rm_64",
+      "question": "¿Qué jugador del Real Madrid marcó el gol de chilena en la final de la Champions League de 2018?",
+      "options": ["Cristiano Ronaldo", "Benzema", "Bale", "Marcelo"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "champions-league", "finales", "bale"]
+    },
+    {
+      "id": "rm_65",
+      "question": "¿Qué entrenador del Real Madrid también fue jugador del club?",
+      "options": ["Mourinho", "Zidane", "Ancelotti", "Benítez"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "entrenadores", "jugadores", "zidane"]
+    },
+    {
+      "id": "rm_66",
+      "question": "¿Qué equipo eliminó al Real Madrid en octavos de la Champions League de 2007 por valor doble de los goles fuera de casa?",
+      "options": ["Bayern", "Roma", "Milan", "Chelsea"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "bayern"]
+    },
+    {
+      "id": "rm_67",
+      "question": "¿Qué jugador anotó el gol del Real Madrid en la final de la Champions League de 2022 en París?",
+      "options": ["Benzema", "Rodrygo", "Vinicius", "Modric"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "finales", "vinicius"]
+    },
+    {
+      "id": "rm_68",
+      "question": "¿Qué país representa Karim Benzema a nivel internacional?",
+      "options": ["Argelia", "Francia", "Marruecos", "Túnez"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "francia", "benzema"]
+    },
+    {
+      "id": "rm_69",
+      "question": "¿Qué jugadores llegaron al Real Madrid en 2009 junto a Cristiano Ronaldo, Kaká y Benzema entre estas opciones?",
+      "options": ["Xabi Alonso", "Arbeloa", "Granero", "Todos los anteriores"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "fichajes", "xabi-alonso", "arbeloa", "granero"]
+    },
+    {
+      "id": "rm_70",
+      "question": "¿Qué rival derrotó al Real Madrid en semifinales de la Champions League de 2015?",
+      "options": ["Barça", "Juventus", "Bayern", "Chelsea"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "juventus"]
+    },
+    {
+      "id": "rm_71",
+      "question": "¿Quién marcó el gol del Real Madrid en la final de la Copa de Europa de 1981 perdida contra el Liverpool?",
+      "options": ["Santillana", "Juanito", "Ninguno", "Stielike"],
+      "correctIndex": 2,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "historia", "finales"]
+    },
+    {
+      "id": "rm_72",
+      "question": "¿Qué jugadores del Real Madrid fallaron en la tanda de penaltis contra el Bayern en semifinales de la Champions League de 2012?",
+      "options": ["Cristiano Ronaldo", "Kaká", "Ramos", "Todos los anteriores"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "bayern", "cristiano-ronaldo", "kaka", "sergio-ramos"]
+    },
+    {
+      "id": "rm_73",
+      "question": "¿Qué equipo remontó al Real Madrid un 3-0 en la Copa del Rey de 1985 entre estas opciones?",
+      "options": ["Castellón", "Barcelona", "Zaragoza", "Atlético de Madrid"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "copa-del-rey"]
+    },
+    {
+      "id": "rm_74",
+      "question": "¿Qué jugador marcó el primer gol del Real Madrid en la final de Lisboa de 2014?",
+      "options": ["Bale", "Cristiano Ronaldo", "Ramos", "Ninguno"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "finales", "lisboa"]
+    },
+    {
+      "id": "rm_75",
+      "question": "¿Qué entrenador sustituyó a Mourinho en el banquillo del Real Madrid en 2013?",
+      "options": ["Ancelotti", "Zidane", "Benítez", "Del Bosque"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "entrenadores", "ancelotti", "mourinho"]
+    },
+    {
+      "id": "rm_76",
+      "question": "¿Qué jugador del Real Madrid marcó el gol decisivo en la final de la Copa de Europa de 1957?",
+      "options": ["Di Stéfano", "Puskás", "Gento", "Rial"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "champions-league", "finales", "rial"]
+    },
+    {
+      "id": "rm_77",
+      "question": "¿Qué jugador del Real Madrid ganó el Balón de Oro en 1959?",
+      "options": ["Di Stéfano", "Kopa", "Puskás", "Gento"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "premios", "historia", "di-stefano"]
+    },
+    {
+      "id": "rm_78",
+      "question": "¿Qué equipo eliminó al Real Madrid en semifinales de la Champions League de 2003?",
+      "options": ["Juventus", "Milan", "Inter", "Manchester United"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "juventus"]
+    },
+    {
+      "id": "rm_79",
+      "question": "¿Qué dorsal llevaba Roberto Carlos en el Real Madrid?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "jugadores", "dorsales", "roberto-carlos"]
+    },
+    {
+      "id": "rm_80",
+      "question": "¿Qué entrenador fue despedido por el Real Madrid poco después de ganar la Champions League de 1998?",
+      "options": ["Heynckes", "Capello", "Antic", "Del Bosque"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "heynckes"]
+    },
+    {
+      "id": "rm_81",
+      "question": "¿Qué jugador del Real Madrid fue conocido por marcar goles decisivos en los últimos minutos durante los años 80?",
+      "options": ["Juanito", "Butragueño", "Míchel", "Santillana"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "jugadores", "juanito"]
+    },
+    {
+      "id": "rm_82",
+      "question": "¿Qué rival eliminó al Real Madrid en cuartos de la Champions League de 1999?",
+      "options": ["Dynamo Kiev", "Bayern", "Manchester United", "Milan"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "bayern"]
+    },
+    {
+      "id": "rm_83",
+      "question": "¿Qué jugadores marcaron para el Real Madrid en la final de la Copa de Europa de 1960 ganada 7-3?",
+      "options": ["Puskás", "Di Stéfano", "Ambos", "Ninguno"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "champions-league", "historia", "finales", "puskas", "di-stefano"]
+    },
+    {
+      "id": "rm_84",
+      "question": "¿Qué capitanes tuvo el Real Madrid antes de Sergio Ramos entre estas opciones?",
+      "options": ["Casillas", "Raúl", "Hierro", "Todos los anteriores"],
+      "correctIndex": 3,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "jugadores", "capitanes", "casillas", "raul", "hierro", "sergio-ramos"]
+    },
+    {
+      "id": "rm_85",
+      "question": "¿Qué entrenador dirigió al Real Madrid en la final de la Champions League de 2002?",
+      "options": ["Del Bosque", "Capello", "Heynckes", "Queiroz"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "finales", "del-bosque"]
+    },
+    {
+      "id": "rm_86",
+      "question": "¿Qué jugador del Real Madrid fue expulsado en la final de la Champions League de 2002?",
+      "options": ["Nadie", "Roberto Carlos", "Helguera", "Hierro"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "finales"]
+    },
+    {
+      "id": "rm_87",
+      "question": "¿Qué equipo eliminó al Real Madrid en octavos de la Champions League de 2006?",
+      "options": ["Arsenal", "Roma", "Milan", "Juventus"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "champions-league", "arsenal"]
+    },
+    {
+      "id": "rm_88",
+      "question": "¿Qué jugador del Real Madrid marcó el gol decisivo en la final de la Copa de Europa de 1966?",
+      "options": ["Amancio", "Serena", "Zoco", "Pirri"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["real-madrid", "historia", "champions-league", "finales", "serena"]
+    },
+    {
+      "id": "rm_89",
+      "question": "¿Qué entrenador ganó la Champions League de 2014 con el Real Madrid?",
+      "options": ["Zidane", "Ancelotti", "Mourinho", "Del Bosque"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["real-madrid", "entrenadores", "champions-league", "ancelotti"]
+    },
+    {
+      "id": "rm_90",
+      "question": "¿Qué jugador del Real Madrid ganó el Balón de Oro en 2002?",
+      "options": ["Ronaldo", "Zidane", "Figo", "Raúl"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["real-madrid", "premios", "jugadores", "ronaldo"]
     }
   ]
 }

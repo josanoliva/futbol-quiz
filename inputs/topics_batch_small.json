@@ -1,0 +1,28 @@
+{
+  "topics": [
+    {
+      "topic_name": "Andrés Iniesta",
+      "topic_slug": "andres-iniesta",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Andr%C3%A9s_Iniesta",
+        "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta"
+      ]
+    },
+    {
+      "topic_name": "Real Madrid",
+      "topic_slug": "real-madrid",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Real_Madrid_Club_de_F%C3%BAtbol",
+        "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      ]
+    },
+    {
+      "topic_name": "Copa Mundial de Fútbol",
+      "topic_slug": "copa-mundial-de-futbol",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol",
+        "https://en.wikipedia.org/wiki/FIFA_World_Cup"
+      ]
+    }
+  ]
+}

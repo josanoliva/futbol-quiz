@@ -3,12 +3,14 @@
 import { useEffect, useMemo, useState } from "react";
 import AffiliateBlock from "@/components/AffiliateBlock";
 
+type Difficulty = "easy" | "medium" | "hard";
+
 type QuizQuestion = {
   id: string;
   question: string;
   options: string[];
   correctIndex: number;
-  difficulty: "easy" | "medium" | "hard";
+  difficulty: Difficulty;
   tags: string[];
 };
 
@@ -41,43 +43,128 @@ type FeedbackPayload = {
 
 const affiliateItems: AffiliateItem[] = [
   {
-    "id": "camisetas",
-    "title": "Camisetas de fútbol",
-    "description": "Camisetas de clubes, selecciones y leyendas.",
-    "url": "https://amzn.to/48mIhM3",
-    "cta": "Ver camisetas"
-  },
-  {
-    "id": "balones",
-    "title": "Balones de fútbol",
-    "description": "Balones para jugar, entrenar o regalar.",
-    "url": "https://amzn.to/3PRDPib",
-    "cta": "Ver balones"
-  },
-  {
-    "id": "botas",
-    "title": "Botas de fútbol",
-    "description": "Botas para césped natural, artificial y sala.",
-    "url": "https://amzn.to/47GOxhF",
-    "cta": "Ver botas"
-  },
-  {
-    "id": "libros",
-    "title": "Libros de fútbol",
-    "description": "Biografías, historia y táctica para fans del fútbol.",
-    "url": "https://amzn.to/48uEBYK",
-    "cta": "Ver libros"
-  },
-  {
-    "id": "regalos",
-    "title": "Regalos futboleros",
-    "description": "Ideas para fans: posters, tazas, bufandas y más.",
-    "url": "https://amzn.to/4tbeTRH",
-    "cta": "Ver regalos"
-  },
+      "id": "camisetas",
+      "title": "Camisetas de fútbol",
+      "description": "Camisetas de clubes, selecciones y leyendas.",
+      "url": "https://amzn.to/48mIhM3",
+      "cta": "Ver camisetas"
+    },
+    {
+      "id": "balones",
+      "title": "Balones de fútbol",
+      "description": "Balones para jugar, entrenar o regalar.",
+      "url": "https://amzn.to/3PRDPib",
+      "cta": "Ver balones"
+    },
+    {
+      "id": "botas",
+      "title": "Botas de fútbol",
+      "description": "Botas para césped natural, artificial y sala.",
+      "url": "https://amzn.to/47GOxhF",
+      "cta": "Ver botas"
+    },
+    {
+      "id": "libros",
+      "title": "Libros de fútbol",
+      "description": "Biografías, historia y táctica para fans del fútbol.",
+      "url": "https://amzn.to/48uEBYK",
+      "cta": "Ver libros"
+    },
+    {
+      "id": "regalos",
+      "title": "Regalos futboleros",
+      "description": "Ideas para fans: posters, tazas, bufandas y más.",
+      "url": "https://amzn.to/4tbeTRH",
+      "cta": "Ver regalos"
+    },
 ];
 
+function shuffleArray<T>(array: T[]): T[] {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function buildBalancedQuestionSet(questions: QuizQuestion[]): QuizQuestion[] {
+  const easy = shuffleArray(questions.filter((q) => q.difficulty === "easy"));
+  const medium = shuffleArray(questions.filter((q) => q.difficulty === "medium"));
+  const hard = shuffleArray(questions.filter((q) => q.difficulty === "hard"));
+
+  const easyQueue = [...easy];
+  const mediumQueue = [...medium];
+  const hardQueue = [...hard];
+
+  const result: QuizQuestion[] = [];
+
+  const difficultyFlow: Difficulty[] = [
+    "easy",
+    "easy",
+    "easy",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "hard",
+    "medium",
+    "hard",
+    "medium",
+    "hard",
+    "hard",
+    "medium",
+    "hard",
+    "hard",
+    "medium",
+    "hard",
+    "hard",
+    "medium",
+    "hard",
+    "hard",
+    "medium",
+    "hard",
+  ];
+
+  function pickQuestion(preferred: Difficulty): QuizQuestion | null {
+    if (preferred === "easy" && easyQueue.length) return easyQueue.shift() ?? null;
+    if (preferred === "medium" && mediumQueue.length) return mediumQueue.shift() ?? null;
+    if (preferred === "hard" && hardQueue.length) return hardQueue.shift() ?? null;
+
+    if (preferred === "easy") {
+      if (mediumQueue.length) return mediumQueue.shift() ?? null;
+      if (hardQueue.length) return hardQueue.shift() ?? null;
+    }
+
+    if (preferred === "medium") {
+      if (hardQueue.length) return hardQueue.shift() ?? null;
+      if (easyQueue.length) return easyQueue.shift() ?? null;
+    }
+
+    if (preferred === "hard") {
+      if (mediumQueue.length) return mediumQueue.shift() ?? null;
+      if (easyQueue.length) return easyQueue.shift() ?? null;
+    }
+
+    return null;
+  }
+
+  for (const difficulty of difficultyFlow) {
+    const question = pickQuestion(difficulty);
+    if (!question) break;
+    result.push(question);
+  }
+
+  const remaining = shuffleArray([...easyQueue, ...mediumQueue, ...hardQueue]);
+  return [...result, ...remaining];
+}
+
 export default function QuizClient({ quiz }: { quiz: QuizData }) {
+  const preparedQuestions = useMemo(() => {
+    return buildBalancedQuestionSet(quiz.questions);
+  }, [quiz.questions]);
+
   const [timeLeft, setTimeLeft] = useState(quiz.timeLimitSeconds);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -91,6 +178,11 @@ export default function QuizClient({ quiz }: { quiz: QuizData }) {
   const [reportSent, setReportSent] = useState(false);
   const [reportLoading, setReportLoading] = useState(false);
   const [reportError, setReportError] = useState("");
+
+  const [nickname, setNickname] = useState("");
+  const [scoreSaved, setScoreSaved] = useState(false);
+  const [savingScore, setSavingScore] = useState(false);
+  const [scoreError, setScoreError] = useState("");
 
   useEffect(() => {
     if (finished) return;
@@ -110,8 +202,8 @@ export default function QuizClient({ quiz }: { quiz: QuizData }) {
   }, [finished]);
 
   const currentQuestion = useMemo(() => {
-    return quiz.questions[currentIndex] ?? null;
-  }, [quiz.questions, currentIndex]);
+    return preparedQuestions[currentIndex] ?? null;
+  }, [preparedQuestions, currentIndex]);
 
   function moveToNextQuestion() {
     const nextIndex = currentIndex + 1;
@@ -124,7 +216,7 @@ export default function QuizClient({ quiz }: { quiz: QuizData }) {
     setReportLoading(false);
     setReportError("");
 
-    if (nextIndex >= quiz.questions.length) {
+    if (nextIndex >= preparedQuestions.length) {
       setFinished(true);
       return;
     }
@@ -199,6 +291,44 @@ export default function QuizClient({ quiz }: { quiz: QuizData }) {
     }
   }
 
+  async function handleSaveScore(e: React.FormEvent) {
+    e.preventDefault();
+
+    if (!nickname.trim()) {
+      setScoreError("Pon un nick para guardar tu score.");
+      return;
+    }
+
+    try {
+      setSavingScore(true);
+      setScoreError("");
+
+      const res = await fetch("/api/scores", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          quizSlug: quiz.slug,
+          quizTitle: quiz.title,
+          nickname: nickname.trim(),
+          score,
+          totalQuestions: preparedQuestions.length,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("No se pudo guardar el score");
+      }
+
+      setScoreSaved(true);
+    } catch {
+      setScoreError("No se pudo guardar tu score. Prueba otra vez.");
+    } finally {
+      setSavingScore(false);
+    }
+  }
+
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-12 text-white">
       <div className="mx-auto max-w-3xl">
@@ -218,9 +348,14 @@ export default function QuizClient({ quiz }: { quiz: QuizData }) {
           <div className="rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3">
             ❓ Pregunta:{" "}
             <strong>
-              {Math.min(currentIndex + 1, quiz.questions.length)}/{quiz.questions.length}
+              {Math.min(currentIndex + 1, preparedQuestions.length)}/{preparedQuestions.length}
             </strong>
           </div>
+          {currentQuestion && (
+            <div className="rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3">
+              🎯 Dificultad: <strong>{currentQuestion.difficulty}</strong>
+            </div>
+          )}
         </div>
 
         {!finished && currentQuestion ? (
@@ -328,12 +463,59 @@ export default function QuizClient({ quiz }: { quiz: QuizData }) {
               </p>
               <p className="mb-8 text-5xl font-extrabold text-green-400">{score}</p>
 
+              <form
+                onSubmit={handleSaveScore}
+                className="mb-8 rounded-2xl border border-slate-800 bg-slate-950 p-4"
+              >
+                <label className="mb-2 block text-sm text-slate-300">
+                  Guarda tu score en el ranking
+                </label>
+
+                <div className="flex flex-col gap-3 md:flex-row">
+                  <input
+                    type="text"
+                    value={nickname}
+                    onChange={(e) => setNickname(e.target.value)}
+                    maxLength={30}
+                    placeholder="Tu nick"
+                    className="w-full rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-white outline-none"
+                  />
+                  <button
+                    type="submit"
+                    disabled={savingScore || scoreSaved}
+                    className="rounded-2xl bg-white px-5 py-3 font-semibold text-slate-950 hover:bg-slate-200 disabled:opacity-50"
+                  >
+                    {scoreSaved
+                      ? "Score guardado"
+                      : savingScore
+                      ? "Guardando..."
+                      : "Guardar score"}
+                  </button>
+                </div>
+
+                {scoreSaved && (
+                  <p className="mt-3 text-sm text-green-400">
+                    Tu score se ha guardado correctamente.
+                  </p>
+                )}
+
+                {scoreError && (
+                  <p className="mt-3 text-sm text-red-400">{scoreError}</p>
+                )}
+              </form>
+
               <div className="flex gap-3">
                 <a
                   href={`/quiz/${quiz.slug}`}
                   className="rounded-2xl bg-green-500 px-5 py-3 font-semibold text-slate-950 hover:bg-green-400"
                 >
                   Jugar otra vez
+                </a>
+                <a
+                  href={`/ranking/${quiz.slug}`}
+                  className="rounded-2xl border border-slate-700 px-5 py-3 font-semibold text-white hover:bg-slate-800"
+                >
+                  Ver ranking
                 </a>
                 <a
                   href="/"

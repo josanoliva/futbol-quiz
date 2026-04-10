@@ -1,0 +1,652 @@
+{
+  "slug": "fc-barcelona",
+  "title": "Quiz FC Barcelona",
+  "description": "¿Cuánto sabes del FC Barcelona? Historia, títulos, jugadores y momentos clave.",
+  "category": "Clubes",
+  "featured": true,
+  "showOnHome": true,
+  "homeOrder": 2,
+  "timeLimitSeconds": 120,
+  "questions": [
+    {
+      "id": "bar_1",
+      "question": "¿En qué año se fundó el FC Barcelona?",
+      "options": ["1898", "1899", "1902", "1905"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "historia", "clubes"]
+    },
+    {
+      "id": "bar_2",
+      "question": "¿Quién fundó el FC Barcelona?",
+      "options": ["Joan Laporta", "Johan Cruyff", "Joan Gamper", "Pep Guardiola"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "historia", "clubes"]
+    },
+    {
+      "id": "bar_3",
+      "question": "¿Cómo se llama el estadio histórico del FC Barcelona?",
+      "options": ["Camp Nou", "Montjuïc", "Mestalla", "San Mamés"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "estadios"]
+    },
+    {
+      "id": "bar_4",
+      "question": "¿Qué colores tiene tradicionalmente la camiseta del FC Barcelona?",
+      "options": ["Blanco y negro", "Rojo y azul", "Verde y blanco", "Amarillo y negro"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "equipaciones"]
+    },
+    {
+      "id": "bar_5",
+      "question": "¿Qué jugador es el máximo goleador histórico del FC Barcelona?",
+      "options": ["Ronaldinho", "Messi", "Suárez", "Xavi"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "goleadores"]
+    },
+    {
+      "id": "bar_6",
+      "question": "¿Cuántas Champions League había ganado el FC Barcelona hasta 2024?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "titulos"]
+    },
+    {
+      "id": "bar_7",
+      "question": "¿Qué entrenador lideró el Dream Team del FC Barcelona?",
+      "options": ["Guardiola", "Cruyff", "Luis Enrique", "Rijkaard"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "historia", "dream-team"]
+    },
+    {
+      "id": "bar_8",
+      "question": "¿Contra qué equipo ganó el FC Barcelona su primera Copa de Europa en 1992?",
+      "options": ["Milan", "Sampdoria", "Ajax", "Juventus"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "historia"]
+    },
+    {
+      "id": "bar_9",
+      "question": "¿Qué jugador del FC Barcelona marcó el gol decisivo en la final de Wembley de 1992?",
+      "options": ["Stoichkov", "Koeman", "Romario", "Guardiola"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "historia", "finales", "jugadores"]
+    },
+    {
+      "id": "bar_10",
+      "question": "¿Qué rival histórico enfrenta al FC Barcelona en El Clásico?",
+      "options": ["Atlético de Madrid", "Sevilla", "Real Madrid", "Valencia"],
+      "correctIndex": 2,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "clasicos", "real-madrid"]
+    },
+    {
+      "id": "bar_11",
+      "question": "¿Qué entrenador ganó el sextete con el FC Barcelona en 2009?",
+      "options": ["Luis Enrique", "Guardiola", "Cruyff", "Valverde"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "historia", "entrenadores", "sextete"]
+    },
+    {
+      "id": "bar_12",
+      "question": "¿Qué jugador del FC Barcelona formó parte del tridente MSN?",
+      "options": ["Neymar", "Iniesta", "Xavi", "Busquets"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "msn"]
+    },
+    {
+      "id": "bar_13",
+      "question": "¿Qué significa el lema del FC Barcelona 'Més que un club'?",
+      "options": ["Más que un equipo", "Más que un club", "Más que fútbol", "Más que historia"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "historia", "identidad"]
+    },
+    {
+      "id": "bar_14",
+      "question": "¿Qué jugador del FC Barcelona llevó el dorsal 6 durante muchos años?",
+      "options": ["Iniesta", "Xavi", "Busquets", "Piqué"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "dorsales"]
+    },
+    {
+      "id": "bar_15",
+      "question": "¿Qué portero fue titular con el FC Barcelona en la final de la Champions League de 2015?",
+      "options": ["Valdés", "Bravo", "Ter Stegen", "Pinto"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "porteros", "finales"]
+    },
+    {
+      "id": "bar_16",
+      "question": "¿Qué rival remontó el FC Barcelona en el famoso 6-1 de 2017?",
+      "options": ["Chelsea", "PSG", "Bayern", "Juventus"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "remontadas", "psg"]
+    },
+    {
+      "id": "bar_17",
+      "question": "¿Qué jugador del FC Barcelona marcó el último gol del 6-1 ante el PSG en 2017?",
+      "options": ["Messi", "Suárez", "Sergi Roberto", "Neymar"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "remontadas", "jugadores"]
+    },
+    {
+      "id": "bar_18",
+      "question": "¿Qué entrenador del FC Barcelona estaba en el banquillo en esa remontada ante el PSG en 2017?",
+      "options": ["Guardiola", "Luis Enrique", "Valverde", "Setién"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "champions-league", "psg"]
+    },
+    {
+      "id": "bar_19",
+      "question": "¿Qué jugador argentino del FC Barcelona debutó muy joven y se convirtió en leyenda del club?",
+      "options": ["Agüero", "Messi", "Tevez", "Di María"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "messi", "argentina"]
+    },
+    {
+      "id": "bar_20",
+      "question": "¿Qué equipo derrotó al FC Barcelona por 8-2 en la Champions League de 2020?",
+      "options": ["Liverpool", "Bayern", "PSG", "Chelsea"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "bayern"]
+    },
+    {
+      "id": "bar_21",
+      "question": "¿Qué jugador del FC Barcelona fue conocido como 'El Guaje'?",
+      "options": ["Villa", "Pedro", "Iniesta", "Cesc"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "david-villa"]
+    },
+    {
+      "id": "bar_22",
+      "question": "¿Qué entrenador del FC Barcelona está más asociado al tiki-taka moderno?",
+      "options": ["Cruyff", "Guardiola", "Rijkaard", "Luis Enrique"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "estilo"]
+    },
+    {
+      "id": "bar_23",
+      "question": "¿Qué dorsal llevaba Andrés Iniesta en el FC Barcelona?",
+      "options": ["6", "8", "10", "14"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "dorsales", "iniesta"]
+    },
+    {
+      "id": "bar_24",
+      "question": "¿Qué jugadores marcaron para el FC Barcelona en la final de la Champions League de 2009?",
+      "options": ["Solo Messi", "Solo Eto'o", "Eto'o y Messi", "Ninguno"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "jugadores"]
+    },
+    {
+      "id": "bar_25",
+      "question": "¿Contra qué equipo ganó el FC Barcelona la final de la Champions League de 2011?",
+      "options": ["Chelsea", "Manchester United", "Arsenal", "Bayern"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales"]
+    },
+    {
+      "id": "bar_26",
+      "question": "¿Qué jugador brasileño brilló en el FC Barcelona justo antes de la gran explosión de Messi?",
+      "options": ["Neymar", "Ronaldinho", "Rivaldo", "Romario"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "brasil"]
+    },
+    {
+      "id": "bar_27",
+      "question": "¿Qué rival eliminó al FC Barcelona en 2019 tras el 4-0 de Anfield?",
+      "options": ["Chelsea", "Liverpool", "Roma", "Bayern"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "liverpool"]
+    },
+    {
+      "id": "bar_28",
+      "question": "¿Qué equipo eliminó al FC Barcelona tras el 3-0 de Roma en 2018?",
+      "options": ["Roma", "Liverpool", "PSG", "Juventus"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "roma"]
+    },
+    {
+      "id": "bar_29",
+      "question": "¿Qué jugador del FC Barcelona marcó en Stamford Bridge en 2009 en el descuento de semifinales de Champions?",
+      "options": ["Messi", "Iniesta", "Xavi", "Eto'o"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "chelsea", "iniesta"]
+    },
+    {
+      "id": "bar_30",
+      "question": "¿Qué jugador fue capitán del FC Barcelona justo antes de Lionel Messi?",
+      "options": ["Puyol", "Xavi", "Iniesta", "Busquets"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "capitanes", "messi"]
+    },
+    {
+      "id": "bar_31",
+      "question": "¿Quién fue el presidente del FC Barcelona durante la construcción del Camp Nou?",
+      "options": ["Joan Gamper", "Francesc Miró-Sans", "Josep Lluís Núñez", "Joan Laporta"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "historia", "presidentes"]
+    },
+    {
+      "id": "bar_32",
+      "question": "¿En qué estadio jugaba el FC Barcelona antes del Camp Nou?",
+      "options": ["Les Corts", "Sarrià", "Montjuïc", "Coliseum"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "historia", "estadios"]
+    },
+    {
+      "id": "bar_33",
+      "question": "¿Qué entrenador dirigía al FC Barcelona en la final de la Champions League de 2006?",
+      "options": ["Guardiola", "Rijkaard", "Cruyff", "Van Gaal"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "champions-league", "finales"]
+    },
+    {
+      "id": "bar_34",
+      "question": "¿Contra qué equipo ganó el FC Barcelona la Champions League de 2006?",
+      "options": ["Arsenal", "Juventus", "Milan", "Chelsea"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales"]
+    },
+    {
+      "id": "bar_35",
+      "question": "¿Qué jugador del FC Barcelona marcó el gol de la victoria en la final de la Champions League de 2006?",
+      "options": ["Eto'o", "Belletti", "Ronaldinho", "Deco"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "jugadores"]
+    },
+    {
+      "id": "bar_36",
+      "question": "¿Qué dorsal llevaba Ronaldinho en el FC Barcelona?",
+      "options": ["7", "10", "11", "9"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "dorsales", "ronaldinho"]
+    },
+    {
+      "id": "bar_37",
+      "question": "¿Qué jugador del FC Barcelona ganó el Balón de Oro en 1999?",
+      "options": ["Rivaldo", "Figo", "Stoichkov", "Romario"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "premios", "jugadores", "rivaldo"]
+    },
+    {
+      "id": "bar_38",
+      "question": "¿Qué jugador portugués dejó el FC Barcelona para fichar por el Real Madrid en 2000?",
+      "options": ["Deco", "Figo", "Ronaldo", "Pepe"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "historia", "fichajes", "figo", "real-madrid"]
+    },
+    {
+      "id": "bar_39",
+      "question": "¿Qué equipo eliminó al FC Barcelona en semifinales de la Champions League de 2010?",
+      "options": ["Inter", "Chelsea", "Arsenal", "Bayern"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "inter"]
+    },
+    {
+      "id": "bar_40",
+      "question": "¿Qué entrenador dirigía al Inter en esa eliminatoria de Champions de 2010 contra el FC Barcelona?",
+      "options": ["Ancelotti", "Mourinho", "Guardiola", "Benítez"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "champions-league", "mourinho"]
+    },
+    {
+      "id": "bar_41",
+      "question": "¿Qué jugador del FC Barcelona marcó dos goles en la final de la Champions League de 2011?",
+      "options": ["Messi", "Pedro", "Villa", "Xavi"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "messi"]
+    },
+    {
+      "id": "bar_42",
+      "question": "¿Qué rival eliminó al FC Barcelona en la Champions League de 2013 con un 7-0 global?",
+      "options": ["Bayern", "Dortmund", "PSG", "Milan"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "bayern"]
+    },
+    {
+      "id": "bar_43",
+      "question": "¿Qué jugador del FC Barcelona marcó el famoso gol de cabeza en la final de la Champions League de 2009?",
+      "options": ["Messi", "Piqué", "Puyol", "Eto'o"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "messi"]
+    },
+    {
+      "id": "bar_44",
+      "question": "¿Qué entrenador sustituyó a Pep Guardiola en el banquillo del FC Barcelona en 2012?",
+      "options": ["Tito Vilanova", "Luis Enrique", "Martino", "Setién"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "historia-reciente"]
+    },
+    {
+      "id": "bar_45",
+      "question": "¿Qué jugador del FC Barcelona marcó muy pronto en la final de la Champions League de 2015?",
+      "options": ["Messi", "Rakitic", "Suárez", "Neymar"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "rakitic"]
+    },
+    {
+      "id": "bar_46",
+      "question": "¿Qué jugador uruguayo del FC Barcelona formó parte del tridente MSN?",
+      "options": ["Cavani", "Suárez", "Forlán", "Valverde"],
+      "correctIndex": 1,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "suarez", "uruguay", "msn"]
+    },
+    {
+      "id": "bar_47",
+      "question": "¿Qué jugador del FC Barcelona marcó el gol decisivo en la final de la Champions League de 2015?",
+      "options": ["Suárez", "Neymar", "Messi", "Rakitic"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "neymar"]
+    },
+    {
+      "id": "bar_48",
+      "question": "¿Qué jugador del FC Barcelona marcó el tercer gol contra el Real Madrid en el Bernabéu en 2005 y fue aplaudido por parte del estadio?",
+      "options": ["Messi", "Ronaldinho", "Eto'o", "Deco"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "historia", "clasicos", "ronaldinho"]
+    },
+    {
+      "id": "bar_49",
+      "question": "¿Qué rival eliminó al FC Barcelona en cuartos de final de la Champions League de 2018?",
+      "options": ["Roma", "Liverpool", "PSG", "Chelsea"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "roma"]
+    },
+    {
+      "id": "bar_50",
+      "question": "¿Qué jugador fue capitán del FC Barcelona durante el sextete de 2009?",
+      "options": ["Puyol", "Xavi", "Iniesta", "Valdés"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "jugadores", "capitanes", "sextete"]
+    },
+    {
+      "id": "bar_51",
+      "question": "¿En qué año se inauguró el Camp Nou?",
+      "options": ["1955", "1957", "1959", "1961"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "estadios", "historia"]
+    },
+    {
+      "id": "bar_52",
+      "question": "¿Qué equipo derrotó al FC Barcelona en la final de la Copa de Europa de 1961?",
+      "options": ["Benfica", "Milan", "Inter", "Real Madrid"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "historia", "finales"]
+    },
+    {
+      "id": "bar_53",
+      "question": "¿Contra qué rival ganó el FC Barcelona la Recopa de Europa de 1979?",
+      "options": ["Fortuna Düsseldorf", "Anderlecht", "Arsenal", "Standard de Liège"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "historia", "titulos-europeos"]
+    },
+    {
+      "id": "bar_54",
+      "question": "¿Quién marcó el gol del FC Barcelona en la final de la Champions League de 1994 perdida 4-0 ante el Milan?",
+      "options": ["Stoichkov", "Romário", "Koeman", "Ninguno"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "historia"]
+    },
+    {
+      "id": "bar_55",
+      "question": "¿Qué entrenador sustituyó a Louis van Gaal en el banquillo del FC Barcelona en 2000, en esa etapa posterior?",
+      "options": ["Llorenç Serra Ferrer", "Rexach", "Antic", "Rijkaard"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "historia"]
+    },
+    {
+      "id": "bar_56",
+      "question": "¿Qué portero fue titular con el FC Barcelona en la final de la Champions League de 2006?",
+      "options": ["Víctor Valdés", "Pinto", "Bonano", "Jorquera"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "porteros", "finales"]
+    },
+    {
+      "id": "bar_57",
+      "question": "¿Quién dio la asistencia del gol de Belletti en la final de París de 2006 para el FC Barcelona?",
+      "options": ["Ronaldinho", "Larsson", "Deco", "Giuly"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "jugadores"]
+    },
+    {
+      "id": "bar_58",
+      "question": "¿Qué jugador del FC Barcelona fue expulsado en la final de la Champions League de 2006?",
+      "options": ["Puyol", "Edmílson", "Van Bronckhorst", "Ninguno"],
+      "correctIndex": 3,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales"]
+    },
+    {
+      "id": "bar_59",
+      "question": "¿Qué equipo eliminó al FC Barcelona en semifinales de la Champions League de 2002 tras empatar en el Camp Nou y ganar en la vuelta?",
+      "options": ["Bayern", "Manchester United", "Real Madrid", "Liverpool"],
+      "correctIndex": 2,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "clasicos", "real-madrid"]
+    },
+    {
+      "id": "bar_60",
+      "question": "¿Quién marcó el gol del FC Barcelona en la semifinal de la Champions League de 2009 contra el Chelsea en Stamford Bridge?",
+      "options": ["Messi", "Eto'o", "Iniesta", "Xavi"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "chelsea", "iniesta"]
+    },
+    {
+      "id": "bar_61",
+      "question": "¿Qué jugador del FC Barcelona ganó el Balón de Oro en 2005?",
+      "options": ["Ronaldinho", "Eto'o", "Deco", "Rivaldo"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "premios", "jugadores", "ronaldinho"]
+    },
+    {
+      "id": "bar_62",
+      "question": "¿Qué jugador abrió el marcador para el FC Barcelona en la final de Roma de 2009?",
+      "options": ["Messi", "Eto'o", "Henry", "Xavi"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "etoo"]
+    },
+    {
+      "id": "bar_63",
+      "question": "¿En qué ciudad se jugó la final de la Champions League de 2011 que ganó el FC Barcelona al Manchester United?",
+      "options": ["Roma", "Londres", "Berlín", "París"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales"]
+    },
+    {
+      "id": "bar_64",
+      "question": "¿Qué jugador marcó el 2-1 del FC Barcelona en la final de Wembley de 2011?",
+      "options": ["Pedro", "Messi", "Villa", "Xavi"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "messi"]
+    },
+    {
+      "id": "bar_65",
+      "question": "¿Qué jugador marcó el 3-1 del FC Barcelona en esa final de 2011?",
+      "options": ["Iniesta", "Pedro", "Villa", "Busquets"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "villa"]
+    },
+    {
+      "id": "bar_66",
+      "question": "¿Qué técnico sustituyó a Tito Vilanova como entrenador principal del FC Barcelona en 2013?",
+      "options": ["Luis Enrique", "Tata Martino", "Valverde", "Setién"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "historia-reciente"]
+    },
+    {
+      "id": "bar_67",
+      "question": "¿Contra qué equipo ganó el FC Barcelona la final de la Champions League de 2015 en Berlín?",
+      "options": ["Juventus", "Bayern", "Manchester City", "Atlético de Madrid"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales"]
+    },
+    {
+      "id": "bar_68",
+      "question": "¿Qué jugador marcó el 2-1 del FC Barcelona en esa final de la Champions League de 2015?",
+      "options": ["Rakitic", "Messi", "Suárez", "Neymar"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "finales", "suarez"]
+    },
+    {
+      "id": "bar_69",
+      "question": "¿Qué rival eliminó al FC Barcelona en cuartos de la Champions League de 2016 por 3-2 global?",
+      "options": ["Atlético de Madrid", "Juventus", "Bayern", "PSG"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "eliminatorias", "atletico-de-madrid"]
+    },
+    {
+      "id": "bar_70",
+      "question": "¿Qué jugador marcó el penalti del 5-1 para el FC Barcelona en la ida del Barça-PSG de 2017?",
+      "options": ["Messi", "Neymar", "Suárez", "Iniesta"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "remontadas", "messi", "psg"]
+    },
+    {
+      "id": "bar_71",
+      "question": "¿Qué entrenador estaba en el banquillo del FC Barcelona cuando cayó 3-0 en Roma en 2018?",
+      "options": ["Luis Enrique", "Valverde", "Setién", "Tata Martino"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "champions-league", "roma"]
+    },
+    {
+      "id": "bar_72",
+      "question": "¿Qué entrenador estaba en el banquillo del FC Barcelona cuando cayó 4-0 en Anfield en 2019?",
+      "options": ["Valverde", "Setién", "Koeman", "Xavi"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "champions-league", "liverpool"]
+    },
+    {
+      "id": "bar_73",
+      "question": "¿Qué futbolista del FC Barcelona marcó el único gol del equipo en la derrota 2-8 ante el Bayern en 2020?",
+      "options": ["Luis Suárez", "Messi", "Alaba en propia", "Griezmann"],
+      "correctIndex": 0,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "historia-reciente", "suarez"]
+    },
+    {
+      "id": "bar_74",
+      "question": "¿Qué presidente sustituyó a Sandro Rosell en 2014 para terminar el mandato en el FC Barcelona?",
+      "options": ["Joan Laporta", "Josep Maria Bartomeu", "Víctor Font", "Agustí Benedito"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "presidentes", "historia-reciente"]
+    },
+    {
+      "id": "bar_75",
+      "question": "¿Qué jugador del FC Barcelona fue uno de los tres finalistas del Balón de Oro 2010 junto a Messi e Iniesta?",
+      "options": ["Xavi", "Busquets", "Piqué", "Villa"],
+      "correctIndex": 0,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "premios", "jugadores", "xavi"]
+    },
+    {
+      "id": "bar_76",
+      "question": "¿Qué defensa del FC Barcelona marcó de cabeza ante el Real Madrid en el 2-6 del Bernabéu de 2009?",
+      "options": ["Piqué", "Puyol", "Márquez", "Abidal"],
+      "correctIndex": 1,
+      "difficulty": "hard",
+      "tags": ["fc-barcelona", "barcelona", "clasicos", "historia-reciente", "puyol"]
+    },
+    {
+      "id": "bar_77",
+      "question": "¿Qué jugador del FC Barcelona fue traspasado al PSG en 2017 por una cifra récord?",
+      "options": ["Neymar", "Suárez", "Dembélé", "Coutinho"],
+      "correctIndex": 0,
+      "difficulty": "easy",
+      "tags": ["fc-barcelona", "barcelona", "fichajes", "jugadores", "neymar", "psg"]
+    },
+    {
+      "id": "bar_78",
+      "question": "¿Qué entrenador dirigía al FC Barcelona cuando ganó La Liga 2022-23?",
+      "options": ["Koeman", "Setién", "Xavi", "Valverde"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "entrenadores", "laliga", "xavi"]
+    },
+    {
+      "id": "bar_79",
+      "question": "¿Qué trofeo europeo ganó el FC Barcelona por primera vez en 1979?",
+      "options": ["Copa de Europa", "Recopa de Europa", "Copa de la UEFA", "Supercopa de Europa"],
+      "correctIndex": 1,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "historia", "titulos-europeos"]
+    },
+    {
+      "id": "bar_80",
+      "question": "¿Quién fue el autor del mítico libre directo que dio al FC Barcelona su primera Copa de Europa?",
+      "options": ["Stoichkov", "Laudrup", "Koeman", "Bakero"],
+      "correctIndex": 2,
+      "difficulty": "medium",
+      "tags": ["fc-barcelona", "barcelona", "champions-league", "historia", "finales", "koeman"]
+    }
+  ]
+}

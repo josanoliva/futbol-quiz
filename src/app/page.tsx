@@ -1,10 +1,40 @@
-import Link from "next/link";
-import { getHomeQuizzes, getFeaturedQuiz, getCategories } from "@/lib/quizzes";
+export const dynamic = "force-dynamic";
 
-export default function Home() {
-  const quizzes = getHomeQuizzes();
-  const featuredQuiz = getFeaturedQuiz();
-  const categories = getCategories(quizzes);
+import Link from "next/link";
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
+
+type QuizRow = {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  featured: boolean;
+  show_on_home: boolean;
+  home_order: number;
+  time_limit_seconds: number;
+};
+
+export default async function Home() {
+  const { data, error } = await supabase
+    .from("quizzes")
+    .select("*")
+    .eq("show_on_home", true)
+    .order("home_order", { ascending: true })
+    .returns<QuizRow[]>();
+
+  if (error) {
+    throw new Error(`Error cargando quizzes: ${error.message}`);
+  }
+
+  const quizzes = data ?? [];
+  const featuredQuiz = quizzes.find((quiz) => quiz.featured) ?? null;
+  const categories = Array.from(new Set(quizzes.map((quiz) => quiz.category).filter(Boolean)));
 
   return (
     <main className="min-h-screen bg-slate-950 text-white">

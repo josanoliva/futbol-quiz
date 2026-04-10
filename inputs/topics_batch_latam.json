@@ -1,0 +1,44 @@
+{
+  "topics": [
+    {
+      "topic_name": "Diego Maradona",
+      "topic_slug": "diego-maradona",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Diego_Maradona",
+        "https://en.wikipedia.org/wiki/Diego_Maradona"
+      ]
+    },
+    {
+      "topic_name": "Ronaldinho",
+      "topic_slug": "ronaldinho",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Ronaldinho",
+        "https://en.wikipedia.org/wiki/Ronaldinho"
+      ]
+    },
+    {
+      "topic_name": "Boca Juniors",
+      "topic_slug": "boca-juniors",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Boca_Juniors",
+        "https://en.wikipedia.org/wiki/Boca_Juniors"
+      ]
+    },
+    {
+      "topic_name": "River Plate",
+      "topic_slug": "river-plate",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
+        "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate"
+      ]
+    },
+    {
+      "topic_name": "Copa América",
+      "topic_slug": "copa-america",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Am%C3%A9rica",
+        "https://en.wikipedia.org/wiki/Copa_Am%C3%A9rica"
+      ]
+    }
+  ]
+}

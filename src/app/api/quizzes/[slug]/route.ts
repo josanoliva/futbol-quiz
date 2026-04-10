@@ -1,16 +1,42 @@
-import { NextResponse } from "next/server";
-import { getQuizBySlug } from "@/lib/quizzes";
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
 
 export async function GET(
-  _request: Request,
-  context: { params: Promise<{ slug: string }> }
+  _req: Request,
+  { params }: { params: Promise<{ slug: string }> }
 ) {
-  const params = await context.params;
-  const quiz = getQuizBySlug(params.slug);
+  const { slug } = await params;
 
-  if (!quiz) {
-    return NextResponse.json({ error: "Quiz no encontrado" }, { status: 404 });
+  let tags: string[] = [];
+
+  if (slug === "real-madrid") tags = ["real-madrid"];
+  if (slug === "fc-barcelona") tags = ["fc-barcelona", "barcelona"];
+  if (slug === "champions-league") tags = ["champions-league"];
+  if (slug === "messi") tags = ["messi"];
+  if (slug === "mundial") tags = ["mundial"];
+  if (slug === "torneo") tags = [];
+
+  let query = supabase.from("questions").select("*");
+
+  if (tags.length > 0) {
+    query = query.overlaps("tags", tags);
   }
 
-  return NextResponse.json(quiz);
+  const { data, error } = await query;
+
+  if (error) {
+    return new Response(JSON.stringify({ error: error.message }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  return new Response(JSON.stringify(data ?? []), {
+    status: 200,
+    headers: { "Content-Type": "application/json" },
+  });
 }

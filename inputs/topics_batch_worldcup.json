@@ -1,0 +1,68 @@
+{
+  "topics": [
+    {
+      "topic_name": "Copa Mundial de la FIFA",
+      "topic_slug": "world-cup",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol",
+        "https://en.wikipedia.org/wiki/FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 2010",
+      "topic_slug": "world-cup-2010",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_2010",
+        "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 2014",
+      "topic_slug": "world-cup-2014",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_2014",
+        "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 2018",
+      "topic_slug": "world-cup-2018",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_2018",
+        "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 2022",
+      "topic_slug": "world-cup-2022",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_2022",
+        "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 1986",
+      "topic_slug": "world-cup-1986",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_1986",
+        "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 1998",
+      "topic_slug": "world-cup-1998",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_1998",
+        "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup"
+      ]
+    },
+    {
+      "topic_name": "Mundial 2002",
+      "topic_slug": "world-cup-2002",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_2002",
+        "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup"
+      ]
+    }
+  ]
+}

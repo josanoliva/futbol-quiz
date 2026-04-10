@@ -1,0 +1,52 @@
+{
+  "topics": [
+    {
+      "topic_name": "Pelé",
+      "topic_slug": "pele",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Pel%C3%A9",
+        "https://en.wikipedia.org/wiki/Pel%C3%A9"
+      ]
+    },
+    {
+      "topic_name": "Neymar",
+      "topic_slug": "neymar",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Neymar",
+        "https://en.wikipedia.org/wiki/Neymar"
+      ]
+    },
+    {
+      "topic_name": "Juan Román Riquelme",
+      "topic_slug": "juan-roman-riquelme",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Juan_Rom%C3%A1n_Riquelme",
+        "https://en.wikipedia.org/wiki/Juan_Rom%C3%A1n_Riquelme"
+      ]
+    },
+    {
+      "topic_name": "Selección de Argentina",
+      "topic_slug": "seleccion-argentina",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Argentina",
+        "https://en.wikipedia.org/wiki/Argentina_national_football_team"
+      ]
+    },
+    {
+      "topic_name": "Selección de Brasil",
+      "topic_slug": "seleccion-brasil",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Brasil",
+        "https://en.wikipedia.org/wiki/Brazil_national_football_team"
+      ]
+    },
+    {
+      "topic_name": "Copa Libertadores",
+      "topic_slug": "copa-libertadores",
+      "urls": [
+        "https://es.wikipedia.org/wiki/Copa_Libertadores",
+        "https://en.wikipedia.org/wiki/Copa_Libertadores"
+      ]
+    }
+  ]
+}
