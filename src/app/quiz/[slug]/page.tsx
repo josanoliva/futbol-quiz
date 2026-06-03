@@ -3,6 +3,7 @@ export const dynamic = "force-dynamic";
 import { notFound } from "next/navigation";
 import QuizClient from "./QuizClient";
 import { createClient } from "@supabase/supabase-js";
+import { getQuizBySlug } from "@/lib/quizzes";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -152,6 +153,7 @@ export default async function QuizPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const localQuiz = getQuizBySlug(slug);
 
   // 1) Metadatos del quiz desde Supabase
   const { data: quizMeta, error: quizError } = await supabase
@@ -161,6 +163,17 @@ export default async function QuizPage({
     .single<QuizRow>();
 
   if (quizError || !quizMeta) {
+    if (localQuiz) {
+      return (
+        <QuizClient
+          quiz={{
+            ...localQuiz,
+            questions: buildProgressiveQuestionOrder(localQuiz.questions),
+          }}
+        />
+      );
+    }
+
     notFound();
   }
 
@@ -172,6 +185,17 @@ export default async function QuizPage({
     .returns<QuizTagRuleRow[]>();
 
   if (tagRulesError) {
+    if (localQuiz) {
+      return (
+        <QuizClient
+          quiz={{
+            ...localQuiz,
+            questions: buildProgressiveQuestionOrder(localQuiz.questions),
+          }}
+        />
+      );
+    }
+
     throw new Error(`Error cargando reglas del quiz: ${tagRulesError.message}`);
   }
 
@@ -188,6 +212,17 @@ export default async function QuizPage({
   const { data: questionsData, error: questionsError } = await questionsQuery;
 
   if (questionsError) {
+    if (localQuiz) {
+      return (
+        <QuizClient
+          quiz={{
+            ...localQuiz,
+            questions: buildProgressiveQuestionOrder(localQuiz.questions),
+          }}
+        />
+      );
+    }
+
     throw new Error(`Error cargando preguntas: ${questionsError.message}`);
   }
 

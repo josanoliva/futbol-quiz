@@ -2,6 +2,7 @@ export const dynamic = "force-dynamic";
 
 import Link from "next/link";
 import { createClient } from "@supabase/supabase-js";
+import { getHomeQuizzes } from "@/lib/quizzes";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -20,6 +21,14 @@ type QuizRow = {
   time_limit_seconds: number;
 };
 
+type HomeQuiz = {
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  featured: boolean;
+};
+
 export default async function Home() {
   const { data, error } = await supabase
     .from("quizzes")
@@ -28,11 +37,15 @@ export default async function Home() {
     .order("home_order", { ascending: true })
     .returns<QuizRow[]>();
 
-  if (error) {
-    throw new Error(`Error cargando quizzes: ${error.message}`);
-  }
-
-  const quizzes = data ?? [];
+  const quizzes: HomeQuiz[] = error
+    ? getHomeQuizzes()
+    : (data ?? []).map((quiz) => ({
+        slug: quiz.slug,
+        title: quiz.title,
+        description: quiz.description,
+        category: quiz.category,
+        featured: quiz.featured,
+      }));
   const featuredQuiz = quizzes.find((quiz) => quiz.featured) ?? null;
   const categories = Array.from(new Set(quizzes.map((quiz) => quiz.category).filter(Boolean)));
 
